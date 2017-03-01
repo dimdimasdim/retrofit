@@ -61,7 +61,7 @@ public class MainActivity extends AppCompatActivity {
         showpDialog();
         try {
             Retrofit retrofit = new Retrofit.Builder()
-                    .baseUrl("http://10.0.2.2:8080/retrofit/")
+                    .baseUrl("http://dimdimasdim.esy.es/")
                     .addConverterFactory(GsonConverterFactory.create())
                     .build();
 
